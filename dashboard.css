@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+ }
+header {
+    background-color: #004c98;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #a50044;
+}
+
+
+.form-register {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-register h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-register form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-register input {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+}
+
+.form-register input[type="submit"] {
+    background-color: #004c98;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.form-register input[type="submit"]:hover {
+    background-color: #a50044;
+}
+
+
+.user-list {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.user-list h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-list th, .user-list td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.user-list th {
+    background-color: #004c98;
+    color: white;
+}
+
+.user-list button {
+    background-color: #004c98;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+.user-list button:hover {
+    background-color: #a50044;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logout a {
+    font-size: 1.5em;
+    color: #004c98;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout a:hover {
+    color: #a50044;
+}
+
+footer {
+    background-color: #004c98;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+}

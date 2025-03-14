@@ -1,0 +1,285 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #004c98;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #a50044;
+}
+
+
+.hero {
+    text-align: center;
+    background-color: #a50044;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #004c98;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #a50044;
+}
+
+
+.about {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.products {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+/* Sección de Contacto */
+.contact {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form input[type="submit"] {
+    background-color: #004c98;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a50044;
+}
+
+/* Galería de imágenes */
+.gallery {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.sites {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sites h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.sites ul {
+    list-style: none;
+}
+
+.sites ul li {
+    margin: 10px 0;
+}
+
+.sites ul li a {
+    color: #004c98;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.sites ul li a:hover {
+    color: #a50044;
+}
+
+
+footer {
+    background-color: #004c98;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 800px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.trofeos-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.trofeos-table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.trofeos-table th, 
+.trofeos-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.trofeos-table th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+}
+
+.trofeos-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trofeos-table tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}

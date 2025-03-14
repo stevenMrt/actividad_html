@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #A50044, #004D98);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+
+.form-container h2 {
+    color: #FFD700; 
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="password"],
+.form-container select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+}
+
+/* Botón de envío */
+.form-container input[type="submit"] {
+    background-color: #A50044;
+    color: white;
+    padding: 10px;
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #FFD700;
+    color: #A50044;
+}
+
+/* Estilo para el párrafo y enlaces */
+.form-container p {
+    margin-top: 15px;
+}
+
+.form-container a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
